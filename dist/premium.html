@@ -10,10 +10,10 @@
 </head>
 <body>
     
-    <!-- <div class="joshuaulaga absolute h-[100vh] top-0 w-0 bg-dark opacity-[.5] z-[1]">
-    </div> -->
+    <div class="joshuaulaga absolute h-[100vh] top-0 w-0 bg-dark opacity-[.5] z-[1]">
+    </div>
 
-    <div class="header bg-primary shadow-xl z-10 lg:z-999 lg:shadow-xl">
+    <div class="header relative bg-primary shadow-xl z-10 lg:z-999 lg:shadow-xl">
         <div class="container relative ">
             <div class="header__wrapper flex justify-between items-center ">
                 <div class="branding flex items-center justify-between w-full lg:w-auto ">
@@ -53,10 +53,10 @@
 <!-- banner-Image
 bg-cover object-fit bg-left -z-10" style="background-image: url('./img/backgroundimage\ \(1\).png'); -->
 
-    <section class="banner h-[80vh] bg-primary">
+    <section class="banner h-[60vh] lg:h-[100vh] bg-primary bg-[url('img/bg_image.png')] bg-no-repeat bg-cover">
     <div class="container">
-        <div class="banner__wrapper h-[45rem] flex flex-col justify-center lg:py-0 lg:">
-            <div class="banner__content text-center lg:text-left  ">
+        <div class="banner__wrapper h-[50vh] flex flex-col items-center justify-center lg:items-start lg:justify-center ">
+            <div class="banner__content text-center lg:flex lg:flex-col lg:items-start lg:mt-[25rem]   ">
                 <h3 class="text-[1rem] font-bold text-white lg:text-[2rem]">Hello_</h3>
                 <h1 class="text-[2.5rem] font-bold text-secondary lg:text-[4rem]">I'm Arjay</h1>
                 <p class="text-white font-bold lg:text-[2rem]">Front-End & Wordpress Developer</p>
@@ -82,7 +82,7 @@ bg-cover object-fit bg-left -z-10" style="background-image: url('./img/backgroun
                         <img src="img/ABOUT.png" alt="" class="w-[20rem] pb-[3rem] lg:w-[30rem]">
                     </div>
                     <div class="context py-[1.5rem] lg:max-w-[50rem] lg:text-[1.5rem]">
-                        <p class="text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ea aspernatur, ipsum eveniet omnis aperiam asperiores aliquam laboriosam rem voluptates dignissimos hic illum veniam eligendi exercitationem amet optio doloribus officiis quae quasi blanditiis? Vel sint, quae veniam harum totam commodi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ea aspernatur, ipsum eveniet omnis aperiam asperiores aliquam laboriosam rem voluptates dignissimos hic illum veniam eligendi exercitationem amet optio doloribus officiis quae quasi blanditiis? Vel sint, quae veniam harum totam commodi!</p>
+                        <p class="text-justify mx-[1.5rem] lg:mx-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ea aspernatur, ipsum eveniet omnis aperiam asperiores aliquam laboriosam rem voluptates dignissimos hic illum veniam eligendi exercitationem amet optio doloribus officiis quae quasi blanditiis? Vel sint, quae veniam harum totam commodi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ea aspernatur, ipsum eveniet omnis aperiam asperiores aliquam laboriosam rem voluptates dignissimos hic illum veniam eligendi exercitationem amet optio doloribus officiis quae quasi blanditiis? Vel sint, quae veniam harum totam commodi!</p>
                         <div class="socmed pt-[1rem] lg:pt-[1.8rem]">
                             <ul class="flex items-center justify-center gap-[2.5rem]">
                                 <li><i class="fa-brands fa-facebook-f text-[1.7rem] lg:text-[2.1rem]"></i></li>
@@ -104,7 +104,7 @@ bg-cover object-fit bg-left -z-10" style="background-image: url('./img/backgroun
                     <h2 class="text-secondary text-[1.2rem] font-bold">SKILLS</h2>
                     <h1 class="text-primary text-[2.5rem] font-bold">What Am I Capable Of</h1>
                 </div>
-                <div class="skills__content lg:flex lg: items-center lg:justify-center ">
+                <div class="skills__content flex flex-wrap items-center gap-[.5rem] lg:flex lg:justify-center mx-[.5rem] lg:mx-0">
                     <div class="card relative">
                         <img src="./img/figma.svg" alt="" class="picture ease-in duration-[300ms] absolute right-[4rem] bg-primary py-[1.7rem] px-[1.9rem] rounded lg:z-10 lg:w-[9rem] border-solid  border-[1px]  lg:top-[7rem] hidden lg:block lg:rounded-[50%]">
                         <div class="circles mt-[4rem] py-3 lg:opacity-0 ">
@@ -187,6 +187,88 @@ bg-cover object-fit bg-left -z-10" style="background-image: url('./img/backgroun
             </div>
         </div>
     </section>
+
+    <!-- <section class="works py-[14rem]">
+        <div class="container">
+            <div class="works__wrapper">
+                <div class="works__tittle text-center py-[2rem]">
+                    <h2 class="text-secondary text-[1.2rem] font-bold">WORKS</h2>
+                    <h1 class="text-primary text-[2.5rem] font-bold">Some of my Projects</h1>
+                </div>
+                <div class="image__slider flex relative">
+                    
+                    <div class="slide  absolute left-[10rem] h-[25rem] top-[1rem]  border-[3px] border-solid border-black  rounded-[1rem] overflow-hidden">
+                        <img src="./img/the-blog.png" alt="" class="">
+                    </div>
+                    <div class="slide absolute right-[10rem] h-[25rem] top-[1rem]  border-[3px] border-solid border-black  rounded-[1rem] overflow-hidden">
+                        <img src="./img/Spotify (1).png" alt="" class="">
+                    </div>
+                   
+                    <div class="slide absolute right-[25rem] border-[3px] border-solid border-black  rounded-[1rem] overflow-hidden">
+                        <img src="./img/FOODFACTORY.png" alt="" class=" ">
+                    </div>
+                    <div class="slide absolute left-0 -z-10 h-[23rem] top-[2rem]  border-[3px] border-solid border-black  rounded-[1rem] overflow-hidden">
+                        <img src="./img/VSCODE.png" alt="" class=" ">
+                    </div>
+                  
+                    <div class="slide absolute right-0 -z-10 h-[23rem] top-[2rem]  border-[3px] border-solid border-black rounded-[1rem] overflow-hidden">
+                        <img src="./img/WORDTOUR.png" alt="" class="">
+                    </div>
+                    
+                </div>
+                <div id="buttons">
+                    <div class="prev"><i class="fa-solid fa-angle-left"></i></div>
+                    <div class="next"><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+               
+            </div>
+        </div>
+    </section> -->
+
+    <section class="contact  bg-[url('img/bg_contact.png')] bg-no-repeat bg-center lg:bg-cover h-[75vh] lg:h-[50vh]">
+            <div class=" bg-[rgb(38,43,51,0.7)] h-[75vh] lg:h-[50vh] ">
+                    <div class="contact__wrapper">
+                        <div class="contact__tittle text-center py-[2rem]">
+                            <h2 class="text-secondary text-[1rem] font-bold">CONTACT</h2>
+                            <h1 class="text-white text-[2rem] font-bold">Ways To Contact Me</h1>
+                        </div>
+                        <div class="branding lg:flex  lg:justify-center  lg:gap-[5rem] lg:mt-[4rem]">
+                            <div class="contact__platform text-justify flex flex-col items-center justify-center lg:justify-start ">
+                                <ul class="lg:pt-[1.5rem]">
+                                    <li class="lg:border-[1px] lg:border-white lg:py-[.8rem] lg:rounded-[.5rem] lg:px-[1.5rem] lg:w-[22rem]"><a href="" class="text-white font-bold text-[.9rem]"><i class="fa-solid fa-paper-plane text-white text-[1.5rem] mr-[1.5rem]"></i>federioarjay16@gmail.com</a></li>
+                                    <li class="lg:border-[1px] lg:border-white lg:py-[.8rem] lg:rounded-[.5rem] lg:px-[1.5rem] lg:w-[22rem]"><a href="" class="text-white font-bold text-[.9rem]"><i class="fa-brands fa-linkedin  text-white text-[1.5rem] mr-[1.5rem]"></i>Arjay Federio</a></li>
+                                    <li class="lg:border-[1px] lg:border-white lg:py-[.8rem] lg:rounded-[.5rem] lg:px-[1.5rem] lg:w-[22rem] "><a href="" class="text-white font-bold text-[.9rem]"><i class="fa-solid fa-phone text-white text-[1.5rem] mr-[1.2rem]"></i>+63104576142</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact__input my-[1.5rem]">
+                                <form action="" class="lg:flex lg:justify-between lg:gap-[2rem]">
+                                    <div class="inputgroup text-center">
+                                    <input type="text"  placeholder="Name" id="" class="w-[32rem] py-[1rem] rounded-[.5rem] ">
+                                    <br>
+                                    <input type="email"  placeholder="Email" id="" class="my-[1rem] w-[32rem] py-[1rem] rounded-[.5rem] lg:my-[1rem]">
+                                    <br>
+                                    <input type="text"  placeholder="Subject" id="" class="w-[32rem] py-[1rem] rounded-[.5rem] ">
+                                    <br>
+
+                                    </div>
+                                    <div class="send flex flex-col items-center lg:items-start lg:gap-[1rem] ">
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="my-[1rem] lg:my-0 w-[32rem] py-[.5rem] rounded-[.5rem] lg:h-[15rem]"></textarea>
+                                        <input type="submit" value="SUBMIT" class="bg-primary py-[.4rem] border-[1px] border-solid border-white px-[1.5rem] rounded-[20rem] text-white font-bold lg:w-[7rem] ">
+                                    </div>
+                                </form>
+                            </div>  
+                            
+                        </div>
+                        
+                    </div>
+            </div>
+    </section>
+
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>

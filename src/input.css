@@ -82,4 +82,52 @@ z-index:999;
     }
     
 
+
+    /* WORKS  */
+    .image__slider img{
+        @apply w-[20rem]
+    }
+    .image__slider img:nth-child(3){
+        @apply w-[30rem]
+    }
+
+
+   /* CONTACT */
+
+    .contact__platform li:nth-child(2){
+        @apply my-[1.5rem]
+    }
+    .contact__platform li:hover{
+        @apply bg-white 
+    }
+    .contact__platform li:hover i{
+        @apply text-primary 
+    }
+    .contact__platform li:hover a{
+    @apply text-primary 
 }
+    .contact__input form .inputgroup input:nth-child(2){
+        @apply my-[1.5rem]
+    } 
+.contact__input form .send input {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    }    
+
+.contact {
+    background-position-y:35%;
+}
+
+.send input:hover{
+        @apply bg-white text-primary
+}
+
+.inputgroup input[type="text"], input[type="email"]{
+    @apply px-[2rem] outline-none 
+}
+.send textarea{
+    @apply px-[2rem] outline-none
+}
+}
+
+
